@@ -155,7 +155,7 @@ public class IWantToBuyJPYUI extends javax.swing.JFrame {
         esunBtn.setActionCommand("Esun");
 
         bankGroup.add(ctcbBtn);
-        ctcbBtn.setText("中國信託");
+        ctcbBtn.setText("中國信託(已失效)");
         ctcbBtn.setActionCommand("Ctbc");
 
         bankGroup.add(botBtn);
