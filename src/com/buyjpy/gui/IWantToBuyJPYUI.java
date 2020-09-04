@@ -157,6 +157,7 @@ public class IWantToBuyJPYUI extends javax.swing.JFrame {
         bankGroup.add(ctcbBtn);
         ctcbBtn.setText("中國信託(已失效)");
         ctcbBtn.setActionCommand("Ctbc");
+        ctcbBtn.setEnabled(false);
 
         bankGroup.add(botBtn);
         botBtn.setText("臺灣銀行");
@@ -340,7 +341,7 @@ public class IWantToBuyJPYUI extends javax.swing.JFrame {
         sinopacBtn.setEnabled(true);
         fubonBtn.setEnabled(true);
         esunBtn.setEnabled(true);
-        ctcbBtn.setEnabled(true);
+        ctcbBtn.setEnabled(false);
         botBtn.setEnabled(true);
         ccdComboBox.setEnabled(true);
         timeSpinner.setEnabled(true);
